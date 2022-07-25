@@ -3,7 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-  <div>Version 2</div>
   <div class="btn">
     <input type="file" (change)="upload($event)">
   </div>

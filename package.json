@@ -4,9 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "build": "ng build --base-href https://adrianlara24.github.io/photo/",
+    "publish": "npx angular-cli-ghpages --dir=docs"
   },
   "private": true,
   "dependencies": {
